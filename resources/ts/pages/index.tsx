@@ -1,7 +1,7 @@
 import { InertiaLink } from "@inertiajs/inertia-react";
 import React from "react";
 
-const Home = () => {
+const Index = () => {
     return (
         <>
             <div className="h-screen bg-blue-500">
@@ -21,4 +21,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Index;
