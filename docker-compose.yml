@@ -49,12 +49,7 @@ services:
             ports:
                 - 8080:80
             environment:
-            PMA_HOST: mysql
-            PMA_PORT: 3306
-            PMA_USER: "${DB_USERNAME}"
-            PMA_PASSWORD: "${DB_PASSWORD}"
-            PMA_DATABASE: "${DB_DATABASE}"
-            #- PMA_ARBITRARY=1
+                - PMA_ARBITRARY=1
             restart: unless-stopped
             depends_on:
                 - mysql
