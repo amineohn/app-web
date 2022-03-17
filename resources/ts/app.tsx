@@ -10,3 +10,4 @@ createInertiaApp({
         return render(<App {...props} />, el);
     },
 });
+
