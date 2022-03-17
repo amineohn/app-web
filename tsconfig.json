@@ -11,8 +11,9 @@
         "lib": ["esnext", "dom"]
     },
     "include": [
-        "resources/js/**/*.ts",
-        "resources/js/**/*.d.ts",
-        "resources/js/**/*.tsx"
+        "resources/ts/**/*.ts",
+        "resources/ts/**/*.d.ts",
+        "resources/ts/**/*.tsx",
+        "resources/ts/bootstrap.ts"
     ]
 }
