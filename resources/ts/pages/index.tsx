@@ -4,18 +4,8 @@ import React from "react";
 const Index = () => {
     return (
         <>
-            <div className="h-screen bg-blue-500">
-                <nav className="bg-blue-600 h-28 py-10 px-8">
-                    <div className="flex items-center justify-between content-center">
-                        <InertiaLink
-                            href="/"
-                            className="text-white font-medium text-2xl"
-                        >
-                            Home
-                        </InertiaLink>
-                    </div>
-                </nav>
-                <div className="">home</div>
+            <div className="h-screen bg-white flex justify-center items-center">
+                <h1 className="text-2xl text-center font-bold">Hello World</h1>
             </div>
         </>
     );
