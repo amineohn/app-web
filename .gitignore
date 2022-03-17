@@ -14,7 +14,7 @@ yarn-error.log
 /.vscode
 /database/migrations
 /public/js/
-
+/public/css/
 # lock
 
 package-lock.json
